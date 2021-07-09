@@ -8,17 +8,14 @@ double SUMAIJBIJ(IntegerVector & IY, NumericVector & X, NumericVector & Y, Numer
   /* variable declaration */
   int k, pos, pos0;
   int n = Y.size();
-  int L = ceil(log(n) / log(2));
-  int P = pow(2, L+1);
+  int L = ceil(std::log((double)(n)) / std::log(2.0));
+  int P = floor(std::pow(2.0, (double)(L+1)));
   double GAMMA1, GAMMAX, GAMMAY, GAMMAXY;
   double RES = 0;
   NumericVector S(P), T(P), U(P), V(P);
   IntegerVector p(L+1);
   
-
-    
-    
-
+  
   p[0] = 1;
   for (int ell = 1; ell <= L; ell++) {
     p[ell] = p[ell - 1] << 1;

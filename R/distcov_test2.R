@@ -1,3 +1,5 @@
+
+
 #' Performs a distance covariance test.
 #'
 #' @param X contains either the first sample or its corresponding distance matrix.
@@ -300,7 +302,7 @@ distcov.test <- function(X,
   if (algorithm == "fast") {
     alg.fast <- TRUE 
     if (doperm) 
-      terms.smp <- function(terms, smp) {sampleterms.fast.matr(terms, smp)}
+      terms.smp <- function(terms, smp) {sampleterms.fast.discrete(terms, smp)}
   } else if (algorithm == "standard") {
     alg.standard <- TRUE
     if (doperm) 

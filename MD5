@@ -1,13 +1,13 @@
-961b2ccd2e187e3c7dd5317753bd9f01 *DESCRIPTION
+712b3a26d72af016679021310d21121d *DESCRIPTION
 3724b6c116b5d90e2581b924d69cffc8 *NAMESPACE
-e5d44523419e5c1c0e36191065dd9927 *NEWS.md
+344a336a15579d2a9e9246cbc5e4d1ee *NEWS.md
 c49d5868d669715414b6eb24f18c40bd *R/RcppExports.R
 4fc3b6932f203f51f8911aef7738a84e *R/auxiliary_functions.R
 a6a8a3a87ae462ff9a990e9e60f1aa88 *R/dc_matrix2.R
 b6eee4b950a68b7249d32a93a5d91b5c *R/dcsis.R
 d1590864884ef3e61328c2d0a672a770 *R/distcov_algorithms2.R
 824bec69a29be144266f83cb4ab94a1a *R/distcov_function.R
-8291a5d0b089c3de74933bc7c1180484 *R/distcov_test2.R
+104e29a4e962fcbbbc2b7c1ebeff83d7 *R/distcov_test2.R
 85c7f14acffa119ff97a9fc7e4f205b0 *R/distcovsurv.R
 7ff3918560db6d6777fadd26791ef6f7 *R/methods_dcmatrix.R
 9063a362391dd8672a8c14a5ae45cb0b *R/methods_test.R
@@ -15,7 +15,7 @@ d1590864884ef3e61328c2d0a672a770 *R/distcov_algorithms2.R
 4bf54906171469843daec3b218620448 *R/prep_alg.R
 fca81a3dc04f3444f4731651ec508b45 *R/preptoterms.R
 4140fe7a89c8424d7eb448af64aca1a7 *README.md
-790eed5849996adec4d6a54b059e07b2 *build/partial.rdb
+c9ec1102ba5a5e73d10b470fff932902 *build/partial.rdb
 8b1fa63914c0d0ca2bb7195d453849cc *inst/REFERENCES.bib
 f7769b8b8f3e029dc47c2b7a2dec7a14 *man/dcmatrix.Rd
 9130ee139f912562b8b8866988d03339 *man/dcorgaussianbiv.Rd
@@ -36,4 +36,4 @@ adb9f6ce0337f20787529d57b30fc951 *man/ipcw.dcov.test.Rd
 5622bd50a7d4070b1e0434349b92e33e *src/dcortools_init.c
 23bfb53a56397e25dafaca321a0bedd6 *src/matrix_vector_operations.cpp
 4cbc10538496ebbf5800a363e4e5ff9b *src/memsave_C2.cpp
-fbefc42bbc799abff930899c025b14d5 *src/sumaij.cpp
+9ffa42d61d60055f3e4e3fe4b80ed8c4 *src/sumaij.cpp
