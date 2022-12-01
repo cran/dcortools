@@ -1,3 +1,22 @@
+### dcortools 0.1.4
+
+1.12.2022
+
+Dominic Edelmann
+
+- Updated DESCRIPTION file (adding a Description field)
+- Added "NDEBUG 1" to header of RcppExports.cpp to avoids problems with "assert_rtn" 
+
+
+### dcortools 0.1.3
+
+30.11.2022
+
+Dominic Edelmann
+
+- Native routines registered in src/init.c
+
+
 ### dcortools 0.1.2
 
 9.7.2021

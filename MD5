@@ -1,6 +1,6 @@
-712b3a26d72af016679021310d21121d *DESCRIPTION
+aea7e1cf41bd5149fd418b9ed385cbca *DESCRIPTION
 3724b6c116b5d90e2581b924d69cffc8 *NAMESPACE
-344a336a15579d2a9e9246cbc5e4d1ee *NEWS.md
+14e7b444646f82c2be4c12cdd23697da *NEWS.md
 c49d5868d669715414b6eb24f18c40bd *R/RcppExports.R
 4fc3b6932f203f51f8911aef7738a84e *R/auxiliary_functions.R
 a6a8a3a87ae462ff9a990e9e60f1aa88 *R/dc_matrix2.R
@@ -15,8 +15,9 @@ d1590864884ef3e61328c2d0a672a770 *R/distcov_algorithms2.R
 4bf54906171469843daec3b218620448 *R/prep_alg.R
 fca81a3dc04f3444f4731651ec508b45 *R/preptoterms.R
 4140fe7a89c8424d7eb448af64aca1a7 *README.md
-c9ec1102ba5a5e73d10b470fff932902 *build/partial.rdb
+c35e7c550b55df1e8a9e28046017d0af *build/partial.rdb
 8b1fa63914c0d0ca2bb7195d453849cc *inst/REFERENCES.bib
+e9e0d5550c72b5be1586f5bca224e82f *inst/include/dcortools_types.h
 f7769b8b8f3e029dc47c2b7a2dec7a14 *man/dcmatrix.Rd
 9130ee139f912562b8b8866988d03339 *man/dcorgaussianbiv.Rd
 9ececd37c62713c217ddcfdf6a0c50df *man/dcsis.Rd
@@ -32,8 +33,8 @@ adb9f6ce0337f20787529d57b30fc951 *man/ipcw.dcov.test.Rd
 96a18b00075bd8742b9e890f563eb8c4 *man/plot.dcmatrix.Rd
 61059660eb073d93e00e8ee054237071 *src/Makevars
 61059660eb073d93e00e8ee054237071 *src/Makevars.win
-3ac22c73e564eadfde5c9813de202d22 *src/RcppExports.cpp
-5622bd50a7d4070b1e0434349b92e33e *src/dcortools_init.c
+8ff4b44066e01d4d4869a31253e094f6 *src/RcppExports.cpp
+1c7dc84585734b6d1fbdcd0bfa571674 *src/init.c
 23bfb53a56397e25dafaca321a0bedd6 *src/matrix_vector_operations.cpp
 4cbc10538496ebbf5800a363e4e5ff9b *src/memsave_C2.cpp
 9ffa42d61d60055f3e4e3fe4b80ed8c4 *src/sumaij.cpp
