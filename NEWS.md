@@ -1,4 +1,13 @@
-### dcortools 0.1.4
+### dcortools 0.1.5
+
+7.12.2022
+
+Dominic Edelmann
+
+- Added #define NDEBUG 1 to matrix_vector_operations.cpp after #include <RcppArmadillo.h>
+-Checked that no assert was left in compiled code.
+
+## dcortools 0.1.4
 
 1.12.2022
 

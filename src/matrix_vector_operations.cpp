@@ -1,5 +1,7 @@
 // [[Rcpp::depends(RcppArmadillo, RcppEigen)]]
+
 #include <RcppArmadillo.h>
+#include "../inst/include/dcortools_types.h"
 #include <RcppEigen.h>
 
 using namespace Rcpp;
