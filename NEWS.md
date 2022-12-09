@@ -1,3 +1,12 @@
+### dcortools 0.1.6
+
+9.12.2022
+
+Dominic Edelmann
+
+- Added #define NDEBUG 1 to RcppExports.cpp after #include <RcppArmadillo.h>
+- Checked that no assert was left in any(!) files 
+
 ### dcortools 0.1.5
 
 7.12.2022
