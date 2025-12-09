@@ -1,3 +1,12 @@
+### dcortools 0.1.7
+
+9.12.2025
+
+Dominic Edelmann
+
+- Removed Specification to C++11
+- Solved a bug for distance covariance version for survival with type.X = distance (thanks to Na You, Essex!!)
+
 ### dcortools 0.1.6
 
 9.12.2022

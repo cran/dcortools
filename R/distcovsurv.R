@@ -42,7 +42,7 @@
 
 ipcw.dcor <- function(Y, X, affine = FALSE, standardize = FALSE, timetrafo = "none", type.X = "sample", metr.X = "euclidean", use = "all", cutoff = NULL) {
   
-  dcor <- ipcw.dcov(Y, X, affine, standardize, timetrafo, type.X, metr.X, use, cutoff) / sqrt(ipcw.dcov(Y, Y[,1], affine, standardize, timetrafo, type.X, metr.X, use, cutoff)) / sqrt(distsd(X =  X, affine = affine, standardize = standardize, type.X = type.X, metr.X = metr.X, use = use, bias.corr=TRUE))
+  dcor <- ipcw.dcov(Y, X, affine, standardize, timetrafo, type.X, metr.X, use, cutoff) / sqrt(ipcw.dcov(Y, Y[,1], affine, standardize, timetrafo, type.X = "sample", metr.X, use, cutoff)) / sqrt(distsd(X =  X, affine = affine, standardize = standardize, type.X = type.X, metr.X = metr.X, use = use, bias.corr=TRUE))
   
   return(dcor)
 }
@@ -135,13 +135,16 @@ ipcw.dcov <- function(Y, X, affine = FALSE, standardize = FALSE,  timetrafo = "n
         }
     }
 
-
-    if (p==1)
-        X <- X[IX]
-    else
-        X <- X[IX,]
-
-
+    
+    if (type.X == "sample" && p == 1) {
+      X <- X[IX]
+    } else if (type.X == "sample" && p > 1) {
+      X <- X[IX, ]
+    }
+    if (type.X == "distance") {
+      X <- X[IX,IX]
+    }
+    
 
     
     if (use == "complete.obs") {
@@ -344,10 +347,15 @@ ipcw.dcov.test <- function(Y, X, affine = FALSE, standardize = FALSE, timetrafo 
       }
     }
 
-    if (p==1)
-        X <- X[IX]
-    else
-        X <- X[IX,]
+    if (type.X == "sample" && p == 1) {
+      X <- X[IX]
+    } else if (type.X == "sample" && p > 1) {
+      X <- X[IX, ]
+    }
+    if (type.X == "distance") {
+      X <- X[IX,IX]
+    }
+    
 
 
  
